@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.content h1 {
+  color: brown;
+  font-size: 48px;
+  font-family:cursive
+}
+
+.create-or-login-button-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.create-or-login-button-box p {
+  font-size: 21px;
+  color: grey;
+}
+
+.login-button {
+  cursor: pointer;
+  border: none;
+  font-size: 24px;
+  padding: 5px 15px;
+  background-color: rgba(70, 129, 244);
+  color: white;
+  border-radius: 10px;
+}
+
+.login-button:hover {
+  background-color: rgb(3, 76, 221);
+}
+
+.create-button {
+    cursor: pointer;
+  border: none;
+  font-size: 24px;
+  padding: 5px 15px;
+  background-color: rgb(16, 225, 117);
+  color: white;
+  border-radius: 10px;
+}
+
+.create-button:hover {
+  background-color: rgb(3, 149, 73);
+}

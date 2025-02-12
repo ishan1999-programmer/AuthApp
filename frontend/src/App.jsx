@@ -1,7 +1,7 @@
-const App = () => {
-  return (
-    <div>app</div>
-  )
-}
+import HomePage from "./components/HomePage";
 
-export default App
+const App = () => {
+  return <HomePage />;
+};
+
+export default App;
