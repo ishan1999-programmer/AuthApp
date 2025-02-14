@@ -1,7 +1,14 @@
-import HomePage from "./components/HomePage";
+import { Routes, Route } from "react-router-dom"
+import HomePage from "./pages/HomePage.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
 
 const App = () => {
-  return <HomePage />;
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/dashboard" element={<Dashboard />} />
+    </Routes>
+  );
 };
 
 export default App;
